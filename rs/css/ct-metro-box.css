@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,900);
+.ct-metro-box {
+  font-family:Lato;
+  font-weight:300;
+
+  background-color:rgb(184, 41, 41);
+  color:rgba(255,255,255,.8);
+}
+.ct-metro-box .title_ { 
+  font-weight:900!important;
+}
+.ct-metro-box .form_ input { border-radius:initial!important; }
