@@ -1,0 +1,9 @@
+.smicon_entity_ ul { list-style-type:none; margin-left:0px;}
+.smicon_entity_ li { background: url('../../../pix/entity/page.png') no-repeat 0 2px; padding-left:18px; }
+.smicon_entity_ li.l1_ { background-image: url('../../../pix/entity/home.png'); }
+.smicon_entity_ li.l2_ { background-image: url('../../../pix/entity/section.png'); }
+
+.smicon_none_ ul { list-style-type:none; }
+.smicon_none_ ul li { list-style-type:none; background:none; padding-left:5px; }
+
+.sitemap_box li.sep_ { list-style-type:none; background:none; margin-left:-1em; }

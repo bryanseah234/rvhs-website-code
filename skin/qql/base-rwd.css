@@ -1,0 +1,89 @@
+/* default hamburger button */
+ul.sitemenu::before {
+  content:"";
+  display:none;
+  width:32px;
+  height:32px;
+  background-image:url(../../rs/cc/icon/graphite/menu.png);
+  background-color:rgba(255,255,255,1); 
+  opacity:.7;
+  border:1px solid transparent;
+}
+@media only screen and (max-device-width:450px), only screen and (max-width:450px){
+  /* -- sitemenu -- */
+  .sitemenu_area { padding:0!important; width:100%!important; }
+  #shade_img_ff, #shade_img_ie { display:none!important; }
+
+  ul.sitemenu { position:absolute; margin:0!important; left:0; top:33px; z-index:2000; display:block!important; background:transparent!important; border-radius:0!important; padding:.5em 0!important; text-align:left; bottom:0; }
+    ul.sitemenu:hover { border:1px solid #ccc; background:rgba(255, 255, 255, 0.91)!important; height:100%; }
+    ul.sitemenu:before { position:absolute; display:block; top:-33px; }
+      ul.sitemenu:hover:before { opacity:1; border:1px solid #ccc; border-bottom-color:transparent; }
+
+  ul.sitemenu li { position:relative; display:none; background:none; height:auto; padding:0!important; margin:0!important; line-height:initial!important; }
+  ul.sitemenu:hover li { display:table; width:100%; }
+
+  ul.sitemenu li a { font-family:Arial!important; font-size:12px!important; font-weight:bold!important; color:#000!important; padding:8px 14px!important; margin:0!important; height:initial!important; line-height:initial!important; }
+  ul.sitemenu a:hover { color:#000!important; text-decoration:underline!important; }
+
+
+  ul.sitemenu .dropmenu { visibility:hidden; display:none; position:relative; background:transparent; top:initial!important; width:100%; left:0!important; border:none; margin-left:30px; }
+    ul.sitemenu .dropmenu td { position:relative; }
+    ul.sitemenu .dropmenu::before { content:"▸"; font-family:Arial; color:#999; width:16px; height:16px; opacity:.5; margin-top:.2ex; margin-left:-30px; }
+
+    ul.sitemenu li .dropmenu { visibility:visible!important; display:table; position:absolute; top:0!important; left:0!important; }
+      ul.sitemenu li:hover > .dropmenu { position:relative; }
+      ul.sitemenu .dmtrig:hover > .dropmenu { position:relative; }
+      ul.sitemenu li:hover > .dropmenu:before { display:none; }
+      ul.sitemenu .dmtrig:hover > .dropmenu:before { display:none; }
+    ul.sitemenu li .dropmenu tbody { display:none; }
+      ul.sitemenu li:hover > .dropmenu > tbody { display:table-row-group; }
+      ul.sitemenu .dmtrig:hover > .dropmenu > tbody { display:table-row-group; }
+
+/*    ul.sitemenu li:hover > .dropmenu { visibility:visible!important; display:table; } */
+/*    ul.sitemenu .dmtrig:hover > .dropmenu { display:table; } */
+
+  ul.sitemenu .dropmenu:before { position:absolute; display:block; }
+
+
+  .main_area .dropmenu h3 { color:#999; font-size:10px; font-style:italic; }
+
+  ul.sitemenu .dropmenu * { background-color:transparent!important; }
+  a.sitemenu { background:none!important; height:initial; line-height:initial!important; }
+  /* -- END sitemenu -- */
+
+  /* -- boxes -- */
+  .content_area, .sidebar_area, .pagecontent_box, .pageblock_box, .ive_content { box-sizing:border-box; }
+
+  #netcontent { overflow-x:hidden; }
+  #lo_whole {height:initial!important;}
+  #lo_main, .main_area {width:100%!important;}
+  .masthead_area, .masthead2_area { width:100%!important;  background-position: 50%; }
+  .masthead_area {height:auto; }
+
+  .content_area { padding:0; margin:0!important; width:100%!important; }
+    .content_area .mid { width:100%!important; }
+
+  .sidebar_area, .sidebar0_area { float:left; padding:0; margin:0!important; width:100%!important;}
+  
+
+  img { max-width:100%; height:initial!important;}
+  img.ive_eobj_right {float:left; margin:0 10px 0 0;  }
+
+  /* --- Sitemap --- */
+  .iveo_pipe_pagetree_sitemap {width:100%!important;}
+    .sitemap_box td { display:block;}
+  
+  /* --- Slidebox --- */
+  .iveo_pipe_mydocs_slidebox {width:100%!important; height:auto!important;}
+  
+  /* --- Feedback --- */
+  .iveo_pipe_feedback_fullapp table{width:97%!important;}
+  .iveo_pipe_feedback_fullapp th{width:25%!important;}
+  .iveo_pipe_feedback_fullapp td {vertical-align:top; display:inline-block; width:97%!important;}
+  .iveo_pipe_feedback_fullapp td input, .iveo_pipe_feedback_fullapp td textarea {width:100%!important;}
+
+  .ive_ptod { padding-right:10px; }
+  .ives_tab_kosong { border:1px solid transparent; border-collapse:collapse; border-top:1px solid #ccc; margin-top:10px; }
+    .ives_tab_kosong td, .ives_tab_kosong th { vertical-align:top; display:inline-block; width:97%!important; padding:5px 0 0!important; font-size:90%; }
+        
+}

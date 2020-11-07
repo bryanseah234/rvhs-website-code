@@ -1,0 +1,40 @@
+.catalog_box {  text-align:center; min-height:50px; }
+.catalog_box .album_ { position:relative; display:inline-block; text-align:center; width:160px; margin-bottom:10px; }
+  .catalog_box .not_approved_ { opacity:0.5; filter:alpha(opacity=50); }
+  .catalog_box .main_menu_ { z-index:10; }
+  .catalog_box .album_menu_ { display:none; top:-3px; right:28px; /* top:22px; right:35px; */ }
+  .catalog_box .count_ { position:absolute; font-weight:bold; font-size:75%; color:#fff; background-color:#111; top:103px; right:37px; border-radius:4px; padding:0 7px; opacity:0.6; filter:alpha(opacity=60); }
+  .catalog_box .pending_ { font-size:90%; display:none; }
+  .catalog_box .armed_ .pending_ { display:inline-block; }
+  .catalog_box .tn_ {  cursor:pointer; background:url(../../../rs/part/album.png) no-repeat; width:155px; height:155px; margin:auto; text-align:left; }
+    .catalog_box .tn_ .photo_ { margin:22px 0 0 23px; border:none; }
+.catalog_box .name_ { font-weight:bold; font-size:85%; margin-top:-10px; width:150px; line-height:110%; height:40px; display:table; }
+
+/* --- old --- */
+table.list_box {
+  Xborder-collapse: collapse; 
+  Xborder:1px solid #ddd;
+}
+
+table.list_box td {
+  vertical-align:top;
+}
+.item_note {
+  font-size:10px;
+}
+.page_menu {
+  font-size:90%;
+  line-height:200%;
+}
+
+/* thumbnail array */
+.tnarray a img {
+  border:3px solid #eee;
+}
+.tnarray a.focus img {
+  border:3px solid #56acf8;
+}
+.tnarray a:hover img {
+  border:3px solid #56acf8;
+}
+

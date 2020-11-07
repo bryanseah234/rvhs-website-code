@@ -1,0 +1,18 @@
+.scrollable_container {
+ width:600px;
+ text-align: center;
+}
+.scrollable {
+  /* required settings */
+  position:relative;
+  overflow:hidden;
+  width: 500px;
+  height:98px;
+}
+.scrollable .rows_ {
+  /* this cannot be too large */
+  width:20000em;
+  position:absolute;
+}
+.row_ { float:left; width:500px; margin-left:25px; cursor:pointer; }
+.scrollable_container .image_wrap { margin-bottom:5px; }
