@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=%20Catamaran:400,700|Roboto:300,400,500');
+
+.col3-layout { width:100%; display:flex; flex-wrap:wrap; margin:0px; padding:0px; }
+.col3-layout > LI { width:calc(100% / 3); height:auto; display:block; margin:0px; padding:0px; }
+
+.col4-layout { margin:0px; padding:0px; display:flex; flex-wrap:wrap; }
+.col4-layout > LI { width:calc(25% - 20px); display:inline-flex; margin:0px 10px; padding:0px; }
+
+.PTP119601 .masthead_area, .PTP119601 .sitemenu_area, .PTP119601 .masthead2_area, .PTP119601 .footer_area, .PTP119601 .path_box  { display:none; }
+.PTP119601 #lo_main { width:100%; }
+
+.PTP119601  .content_area { padding-top:80px; }
+.PTP119601.PTP119617 .content_area { padding-top:0px; }
+
+.PTP119601 .layout-default .content_area { margin-left:calc(50vw - 600px); width:850px; }
+.PTP119601 .layout-default .sidebar_area { margin-right:calc(50vw - 600px); width:280px; padding-top:80px; }
+
+.PTP119601 .layout-single_col .sidebar_area { padding-left:0px !important; padding-right:0px !important; display:none !important; }
+.PTP119601.ive_designmode .layout-single_col .sidebar_area { display:block !important; }
+.PTP119601 .layout-single_col .content_area .pagecontent_box, .PTP119601 .layout-single_col .content_area .pageblock_box { margin:0px auto; padding:0px; max-width:1200px; }
+
+
+.PTP119601 #opennhse-header { width:calc(100% - 20px); padding:0px 10px; background:#FFFFFF; position:relative; height:80px; }
+.PTP119601 #opennhse-header #schlogo { width:219px; height:101px; display:block; position:absolute; left:calc(50vw - 600px); top:20px; z-index:1100; text-indent:-9999px; background:url('top/school%20logo.png') center no-repeat; }
+
+.PTP119601 #opennhse-header H2 { position:absolute; top:10px; right:calc(50vw - 550px); font-size:24px; font-weight:bold; display:none; }
+
+.PTP119601 #opennhse-header #rvhsoh-rwdmenu { width:55px; height:55px; display:none; background:url('top/rwd-menu.png') no-repeat; cursor:pointer; position:absolute; top:20px; right:20px; }
+
+.PTP119601 #opennhse-header #opennhse-search-cnt { position:absolute; top:10px; right:calc(50vw - 600px); width:30px; height:30px; }
+.PTP119601 #opennhse-header #opennhse-search-cnt INPUT { background:transparent; border-none; border-bottom:1px solid #000000; line-height:29px; float:left; width:200px; float:left; display:none; }
+.PTP119601 #opennhse-header #opennhse-search-cnt.active { width:250px; }
+.PTP119601 #opennhse-header #opennhse-search-cnt.active INPUT { display:block; }
+.PTP119601 #opennhse-header #opennhse-search-cnt #openhse-header-search { background:url('top/search%20icon.png') center no-repeat; width:30px; height:30px; cursor:pointer; float:right; }
+
+.PTP119601 #opennhse-header #opennhse-navi { position:absolute; top:65px; right:0px; background:url('top/menu%20navi%20bar.png'); margin:0px; padding-right:calc(50vw - 600px); padding-left:30px; display:block; text-align:left; z-index:1200; }
+.PTP119601 #opennhse-header #opennhse-navi LI { display:inline-block; margin:0px; padding:0px 0px; position:relative; }
+.PTP119601 #opennhse-header #opennhse-navi LI A, .PTP119601  #opennhse-header #opennhse-navi LI A:visited, .PTP119601  #opennhse-header #opennhse-navi LI A:hover { color:#FFFFFF; font-size:14px; line-height:25px; text-decoration:none; padding:5px 20px; font-weight:500; font-family:'Roboto'; display:block; }
+.PTP119601  #opennhse-header #opennhse-navi LI A:hover { color:#b40000; }
+
+.PTP119601 #opennhse-header #opennhse-navi LI > UL { display:none; position:absolute; top:100%; left:0px; z-index:9999; margin:0px; background:#062759; min-width:250px; }
+.PTP119601 #opennhse-header #opennhse-navi LI:hover > UL { display:block; }
+.PTP119601 #opennhse-header #opennhse-navi LI > UL LI { display:block; }
+
+.PTP119601 #openhse-footer { background:#04142b; padding:50px 10px 0px 10px; width:calc(100% - 20px); margin:0px; font-family:'Roboto'; clear:both; }
+.PTP119601 #openhse-footer > UL { max-width:1200px; margin:0px auto; }
+
+.PTP119601 #openhse-footer #openhse-footer-schname { text-indent:-9999px; display:block; width:372px; height:63px; background:url('footer/school%20name.png') left center no-repeat; }
+
+.PTP119601 #openhse-footer UL LI A, .PTP119601 #openhse-footer UL LI A:visited, .PTP119601 #openhse-footer UL LI A:hover { text-decoration:none; color:#FFFFFF; font-size:14px; line-height:30px; }
+
+.PTP119601 #rvhs-contact { display:block; margin:0px; padding:0px; }
+.PTP119601 #rvhs-contact > LI { display:block; margin:0px; padding:10px 0px 10px 25px; font-size:14px; line-height:30px; color:#FFFFFF; }
+.PTP119601 #rvhs-contact > LI:nth-of-type(1) { background:url('footer/location_icon.png') left center no-repeat; }
+.PTP119601 #rvhs-contact > LI:nth-of-type(2) { background:url('footer/phone_icon.png') left center no-repeat; }
+.PTP119601 #rvhs-contact > LI:nth-of-type(3) { background:url('footer/email_icon.png') left center no-repeat; }
+
+.PTP119601 #openhse-footer UL#links { display:block; margin:0px; padding:73px 0px 0px 0px; }
+.PTP119601 #openhse-footer UL#links > LI { display:block; margin:0px; padding:10px 0px; }
+
+.PTP119601 #rvhs-social:after { clear:both; display:block; content:''; }
+.PTP119601 #rvhs-social > LI { display:block; margin:0px 15px 0px 0px; padding:0px;  float:left; }
+.PTP119601 #rvhs-social > LI > A { text-indent:-9999px; display:inline-block; width:31px; height:31px; }
+.PTP119601 #rvhs-social > LI > A#facebook { background:url('footer/fb_icon.png') center center no-repeat; }
+.PTP119601 #rvhs-social > LI > A#instg { background:url('footer/insta_icon.png') center center no-repeat; }
+.PTP119601 #rvhs-social > LI > A#yt { background:url('footer/youtube_icon.png') center center no-repeat; }
+
+.PTP119601 #openhse-footer h2 { font-family:'Roboto'; font-weight:bold; font-size:32px; color:#ffffff; }
+
+.PTP119601 #openhse-footer > P { color:#FFFFFF; text-align:center; font-size:14px; color:#6d89a0; display:block; padding:50px 0px 5px 0px; }
+
+@media only screen and (max-device-width: 1200px), only screen and (max-width: 1200px) {
+.PTP119601 .layout-default .content_area { margin-left:20px; width:calc(100% - 280px); }
+.PTP119601 .layout-default .sidebar_area { margin-right:20px; width:280px; }	
+
+.PTP119601 .layout-single_col .content_area .pagecontent_box, .PTP119601 .layout-single_col .content_area .pageblock_box { padding:0px 20px; }
+
+.PTP119601 #opennhse-header #schlogo { left:20px; width: 30vw; background-size: 100%;  background-position: top; max-width: 219px; }
+.PTP119601 #opennhse-header #opennhse-search-cnt { right:20px; }
+.PTP119601 #opennhse-header #opennhse-navi { padding-right:0px; }
+}
+
+@media only screen and (max-device-width: 1024px), only screen and (max-width: 1024px) {
+
+	.PTP119601 #opennhse-header #rvhsoh-rwdmenu { display:block; }	
+	.PTP119601 #opennhse-header #opennhse-search-cnt { display:none; }
+	
+	.PTP119601 #opennhse-header #opennhse-navi { display:none; position:absolute; top:80px; left:0px; right:auto; background:#04142b; border-top:5px solid #b40000; width:100%; padding:0px; }
+	.PTP119601 #opennhse-header #opennhse-navi.active { display:block; z-index:9999; }
+	.PTP119601 #opennhse-header #opennhse-navi LI { display:block; text-align:center; padding:10px 0px; }
+	
+	.PTP119601 #opennhse-header #opennhse-navi LI.active > UL { display:block; width:100%; top:auto; left:auto; position:relative; }
+}
+
+@media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
+.col3-layout { display:block; }
+.col3-layout > LI { width:100%; height:auto; display:block; }
+
+.col4-layout { display:block; }
+.col4-layout > LI { width:calc(100% - 20px); height:auto; display:block; }
+
+.PTP119601 .layout-default .content_area { margin:0px; width:100%; }
+.PTP119601 .layout-default .content_area > .mid { width:calc(100% - 40px); padding:0px 20px; }
+.PTP119601 .layout-default .sidebar_area { margin:0px; width:calc(100% - 40px); padding:0px 20px; }	
+}
+
+@media only screen and (max-device-width: 450px), only screen and (max-width: 450px) {
+	.PTP119601 .content_area > .mid, .PTP119601 .sidebar_area { width:calc(100% - 40px) !important; padding:0px 20px !important; }
+}
